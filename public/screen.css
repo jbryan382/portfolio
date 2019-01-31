@@ -1,3 +1,5 @@
+/* Border-radius*/
+
 :root {
 	font: 16px / 1 sans-serif;
 }
@@ -9,7 +11,47 @@ html {
 body {
 	margin: 0;
 	min-height: 100%;
+	background-color: #fffefe;
 }
 
-.Greeting {
+header {
+	background-image: url(/images/space.png);
+	/* display: flex; */
+	position: relative;
+}
+
+.tri {
+	position: absolute;
+}
+
+.greeting {
+	background-color: #cfd4d6;
+	border-radius: 10px;
+	margin: 0;
+}
+
+.gamelogos {
+	width: 20px;
+}
+.games {
+	background-color: rgba(00, 00, 00, 0.75);
+	display: flex;
+	justify-content: flex-end;
+}
+
+article {
+	background-color: #00101a;
+}
+
+.reacttitle {
+	background-image: url(/images/react.png);
+}
+
+.codetitle {
+	background-image: url(/images/code.png);
+}
+
+.articlecontent {
+	background-color: white;
+	padding-top: 0;
 }
