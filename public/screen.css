@@ -1,5 +1,9 @@
 /* Border-radius*/
 
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
 :root {
 	font: 16px / 1 sans-serif;
 }
@@ -63,35 +67,73 @@ article {
 }
 
 .reacttitle {
-	background-image: url(/images/react.png);
 	margin: 4rem;
 	border-radius: 5px;
 }
 
 .codetitle {
-	background-image: url(/images/code.png);
 	margin: 4rem;
 	border-radius: 5px;
 }
 
+.reactbackground {
+	background-image: url(/images/react.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position-y: -19.45rem;
+	border-radius: 5px;
+}
+
+.codebackground {
+	background-image: url(/images/code.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-radius: 5px;
+}
 .articlecontent {
 	background-color: white;
 	padding-top: 0;
 	border-radius: 5px;
 }
 
-.keepreading {
+.contenttitle {
 	display: flex;
-	justify-content: flex-end;
+	flex-direction: row;
+	justify-content: flex-start;
 	margin-left: 1rem;
-	margin-right: 1rem;
-	margin-top: 1rem;
-	margin-block-end: 1rem;
+}
+
+.date {
+	color: #474747;
+	margin-left: 0.5rem;
+	margin-right: 0;
+	margin-top: 1.69rem;
+	margin-bottom: 0;
+}
+
+p {
+	margin-left: 1rem;
+}
+
+.keepreading {
+	background: #007cdd;
+	color: white;
+	text-decoration: none;
+	display: flex;
+	border-radius: 5px;
+	justify-content: flex-end;
+	justify-content: space-around;
+	align-content: flex-start;
+	margin-left: 67rem;
+	margin-right: 2rem;
+	margin-top: -2rem;
+	margin-bottom: -3rem;
 }
 
 .maybeishouldnt {
 	color: none;
 	background-color: none;
+	margin: 1rem;
 }
 
 .stayconnected {
