@@ -11,32 +11,51 @@ html {
 body {
 	margin: 0;
 	min-height: 100%;
-	background-color: #fffefe;
+	background-color: #00101a;
 }
 
 header {
 	background-image: url(/images/space.png);
-	/* display: flex; */
-	position: relative;
+	background-size: 100% 90%;
+	background-repeat: no-repeat;
+	margin-left: 4rem;
+	margin-right: 4rem;
 }
 
-.tri {
-	position: absolute;
-}
-
-.greeting {
+.greeting1 {
 	background-color: #cfd4d6;
-	border-radius: 10px;
-	margin: 0;
+	border-radius: 5px 5px 0px 0px;
+	margin-top: 4rem;
+	margin-left: 25rem;
+	margin-right: 21rem;
+	margin-bottom: 0rem;
 }
 
-.gamelogos {
-	width: 20px;
+.greeting2 {
+	background-color: #cfd4d6;
+	border-radius: 0px 0px 5px 5px;
+	margin-top: 0rem;
+	margin-bottom: 4rem;
+	margin-left: 25rem;
+	margin-right: 21rem;
+	/* position: relative; */
 }
-.games {
-	background-color: rgba(00, 00, 00, 0.75);
+/* .tri {
+	position: absolute;
+	bottom: 0;
+} */
+.gameslogos {
 	display: flex;
-	justify-content: flex-end;
+	width: 250px;
+	height: 200px;
+	border-radius: 5px;
+	margin: 2rem;
+}
+
+.games {
+	background-color: rgba(00, 00, 00, 0.69);
+	display: flex;
+	flex: wrap;
 }
 
 article {
@@ -45,13 +64,54 @@ article {
 
 .reacttitle {
 	background-image: url(/images/react.png);
+	margin: 4rem;
+	border-radius: 5px;
 }
 
 .codetitle {
 	background-image: url(/images/code.png);
+	margin: 4rem;
+	border-radius: 5px;
 }
 
 .articlecontent {
 	background-color: white;
 	padding-top: 0;
+	border-radius: 5px;
+}
+
+.keepreading {
+	display: flex;
+	justify-content: flex-end;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	margin-top: 1rem;
+	margin-block-end: 1rem;
+}
+
+.maybeishouldnt {
+	color: none;
+	background-color: none;
+}
+
+.stayconnected {
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+div {
+	display: flex;
+	flex: wrap;
+	align-content: center;
+	justify-content: center;
+	justify-content: space-between;
+	width: auto;
+	height: 100px;
+	margin: 4rem;
+}
+
+footer {
+	color: white;
+	display: flex;
+	justify-content: center;
 }
