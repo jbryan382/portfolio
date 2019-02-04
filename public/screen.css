@@ -22,78 +22,110 @@ header {
 	background-image: url(/images/space.png);
 	background-size: 100% 90%;
 	background-repeat: no-repeat;
-	margin-left: 4rem;
-	margin-right: 4rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	position: relative;
+}
+
+.user {
+	width: 50%;
+	margin-left: 6rem;
+}
+.userphoto {
+	width: 90%;
+	border-radius: 5px;
 }
 
 .greeting1 {
-	background-color: #cfd4d6;
+	background-color: rgba(255, 255, 255, 0.69);
 	border-radius: 5px 5px 0px 0px;
 	margin-top: 4rem;
-	margin-left: 25rem;
-	margin-right: 21rem;
+	/* margin-left: 25rem;
+	margin-right: 21rem; */
 	margin-bottom: 0rem;
 }
 
 .greeting2 {
-	background-color: #cfd4d6;
+	background-color: rgba(255, 255, 255, 0.69);
 	border-radius: 0px 0px 5px 5px;
 	margin-top: 0rem;
-	margin-bottom: 4rem;
-	margin-left: 25rem;
-	margin-right: 21rem;
-	/* position: relative; */
+	/* margin-bottom: 4rem; */
+	/* margin-left: 25rem;
+	margin-right: 21rem; */
 }
-/* .tri {
+
+.tri {
+	opacity: 0.69;
 	position: absolute;
-	bottom: 0;
-} */
+	left: 5px;
+	top: 301px;
+}
+
 .gameslogos {
-	display: flex;
-	width: 250px;
-	height: 200px;
+	width: 100%;
+	height: 100%;
 	border-radius: 5px;
-	margin: 2rem;
+	margin: 1.5rem;
 }
 
 .games {
 	background-color: rgba(00, 00, 00, 0.69);
+	width: 100%;
 	display: flex;
-	flex: wrap;
+	flex-wrap: wrap;
+	margin: 0.5rem;
+	margin-top: 3rem;
+	justify-content: center;
 }
 
 article {
+	/* display: flex; */
 	background-color: #00101a;
 }
 
 .reacttitle {
 	margin: 4rem;
 	border-radius: 5px;
+	/* display: flex;
+	flex-flow: column; */
 }
 
 .codetitle {
 	margin: 4rem;
+	margin-bottom: 1;
 	border-radius: 5px;
 }
 
 .reactbackground {
 	background-image: url(/images/react.png);
 	background-repeat: no-repeat;
+	border-radius: 5px 5px 0px 0px;
 	background-size: 100%;
-	background-position-y: -19.45rem;
-	border-radius: 5px;
+	display: flex;
+	align-content: flex-end;
+	background-position-y: -3rem;
+	/*border-radius: 5px;
+	margin-top: 4rem; */
+	margin-bottom: 0;
 }
 
 .codebackground {
+	display: flex;
+	align-content: flex-end;
 	background-image: url(/images/code.png);
+	border-radius: 5px 5px 0px 0px;
 	background-repeat: no-repeat;
-	background-size: 100%;
-	border-radius: 5px;
+	background-size: cover;
+	/* border-radius: 5px;
+	margin-top: 4rem;
+	margin-bottom: 0; */
 }
+
 .articlecontent {
 	background-color: white;
-	padding-top: 0;
-	border-radius: 5px;
+	border-radius: 0px 0px 5px 5px;
+	margin-top: 4rem;
+	margin-bottom: 0;
 }
 
 .contenttitle {
@@ -124,9 +156,9 @@ p {
 	justify-content: flex-end;
 	justify-content: space-around;
 	align-content: flex-start;
-	margin-left: 67rem;
+	margin-left: 9rem;
 	margin-right: 2rem;
-	margin-top: -2rem;
+	margin-top: 0rem;
 	margin-bottom: -3rem;
 }
 
@@ -143,12 +175,11 @@ p {
 }
 div {
 	display: flex;
-	flex: wrap;
+	flex-wrap: wrap;
 	align-content: center;
 	justify-content: center;
 	justify-content: space-between;
-	width: auto;
-	height: 100px;
+	width: 100%;
 	margin: 4rem;
 }
 
