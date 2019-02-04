@@ -251,8 +251,8 @@ div {
 	}
 
 	.gameslogos {
-		width: 20%;
-		height: 25%;
+		width: 100%;
+		height: 100%;
 		border-radius: 5px;
 		margin: 1.5rem;
 	}
@@ -264,6 +264,7 @@ div {
 		margin: 0.5rem;
 		margin-top: 3rem;
 		justify-content: center;
+		justify-content: space-evenly;
 	}
 
 	article {
