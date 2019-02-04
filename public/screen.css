@@ -58,7 +58,7 @@ header {
 	opacity: 0.69;
 	position: absolute;
 	left: 5px;
-	top: 301px;
+	top: 68px;
 }
 
 .gameslogos {
@@ -162,29 +162,209 @@ p {
 	margin-bottom: -3rem;
 }
 
-.maybeishouldnt {
-	color: none;
-	background-color: none;
-	margin: 1rem;
-}
-
 .stayconnected {
 	display: flex;
 	justify-content: center;
 	color: white;
 }
+
+.social {
+	width: 50%;
+	height: 50%;
+	border-radius: 200px;
+	margin-left: 3rem;
+}
+
+/* This is for the full screen media querey */
 div {
 	display: flex;
-	flex-wrap: wrap;
 	align-content: center;
 	justify-content: center;
 	justify-content: space-between;
-	width: 100%;
 	margin: 4rem;
 }
 
-footer {
+.copy {
 	color: white;
 	display: flex;
 	justify-content: center;
+}
+
+@media (min-width: 800px) {
+	* {
+		font-family: 'Roboto', sans-serif;
+	}
+
+	:root {
+		font: 16px / 1 sans-serif;
+	}
+
+	html {
+		height: 100%;
+	}
+
+	body {
+		background-color: #00101a;
+	}
+
+	header {
+		background-image: url(/images/space.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-left: 2rem;
+		margin-right: 2rem;
+		position: relative;
+	}
+
+	.user {
+		width: 25%;
+		margin-left: 6rem;
+	}
+	.userphoto {
+		width: 90%;
+		border-radius: 5px;
+	}
+
+	.greeting1 {
+		background-color: rgba(255, 255, 255, 0.69);
+		border-radius: 5px 5px 0px 0px;
+		margin-top: 0rem;
+		margin-left: 25rem;
+		margin-right: 25rem;
+		margin-bottom: 0rem;
+	}
+
+	.greeting2 {
+		background-color: rgba(255, 255, 255, 0.69);
+		border-radius: 0px 0px 5px 5px;
+		margin-top: 0rem;
+		margin-bottom: 4rem;
+		margin-left: 25rem;
+		margin-right: 25rem;
+	}
+
+	.tri {
+		opacity: 0.69;
+		position: absolute;
+		left: 440px;
+		top: 50px;
+	}
+
+	.gameslogos {
+		width: 20%;
+		height: 25%;
+		border-radius: 5px;
+		margin: 1.5rem;
+	}
+
+	.games {
+		background-color: rgba(00, 00, 00, 0.69);
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0.5rem;
+		margin-top: 3rem;
+		justify-content: center;
+	}
+
+	article {
+		/* display: flex; */
+		background-color: #00101a;
+	}
+
+	.reacttitle {
+		margin: 4rem;
+		border-radius: 5px;
+		/* display: flex;
+		flex-flow: column; */
+	}
+
+	.codetitle {
+		margin: 4rem;
+		margin-bottom: 1;
+		border-radius: 5px;
+	}
+
+	.reactbackground {
+		background-image: url(/images/react.png);
+		background-repeat: no-repeat;
+		border-radius: 5px 5px 0px 0px;
+		background-size: 100%;
+		display: flex;
+		align-content: flex-end;
+		background-position-y: -19.5rem;
+		margin-bottom: 0;
+	}
+
+	.codebackground {
+		display: flex;
+		align-content: flex-end;
+		background-image: url(/images/code.png);
+		border-radius: 5px 5px 0px 0px;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.articlecontent {
+		background-color: white;
+		border-radius: 0px 0px 5px 5px;
+		margin-top: 4rem;
+		margin-bottom: 0;
+	}
+
+	.contenttitle {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		margin-left: 1rem;
+	}
+
+	.date {
+		color: #474747;
+		margin-left: 0.5rem;
+		margin-right: 0;
+		margin-top: 1.69rem;
+		margin-bottom: 0;
+	}
+
+	p {
+		margin-left: 1rem;
+	}
+
+	.keepreading {
+		background: #007cdd;
+		color: white;
+		text-decoration: none;
+		display: flex;
+		border-radius: 5px;
+		justify-content: flex-end;
+		justify-content: space-around;
+		align-content: flex-start;
+		margin-left: 62rem;
+		margin-right: 4rem;
+		margin-top: 0rem;
+		margin-bottom: -3rem;
+	}
+
+	.stayconnected {
+		display: flex;
+		justify-content: center;
+		color: white;
+	}
+
+	.social {
+		width: 70%;
+		border-radius: 250px;
+	}
+
+	div {
+		display: flex;
+		justify-content: center;
+		justify-content: space-evenly;
+	}
+
+	.copy {
+		color: white;
+		display: flex;
+		justify-content: center;
+	}
 }
